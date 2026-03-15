@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import { getStepsByPhase } from '@/lib/steps'
 import { PHASES } from '@/lib/constants'
-import { H1, H2, Lead, Muted } from '@//components/ui/typography'
-import { StepCard } from '@//components/step-card'
-import { CloneCommand } from '@//components/clone-command'
+import { H1, H2, Lead, Muted } from '@/components/ui/typography'
+import { StepCard } from '@/components/step-card'
+import { CloneCommand } from '@/components/clone-command'
 import { GithubIcon, StarIcon } from 'lucide-react'
 
 const GITHUB_REPO_URL = 'https://github.com/czl9707/build-your-own-openclaw'

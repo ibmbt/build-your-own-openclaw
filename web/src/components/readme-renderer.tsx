@@ -2,7 +2,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
 import rehypeRaw from 'rehype-raw'
-import { H1, H2, H3, H4, P } from '@//components/ui/typography'
+import { H1, H2, H3, H4, P } from '@/components/ui/typography'
 import { CodeBlock } from './code-block'
 import type { Components } from 'react-markdown'
 

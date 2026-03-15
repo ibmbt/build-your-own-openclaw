@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { Geist, Red_Hat_Mono } from 'next/font/google'
 import './globals.css'
-import { ThemeProvider } from '@//components/theme-provider'
-import { Header } from '@//components/header'
+import { ThemeProvider } from '@/components/theme-provider'
+import { Header } from '@/components/header'
 
 const geist = Geist({
   subsets: ['latin'],

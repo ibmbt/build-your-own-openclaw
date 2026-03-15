@@ -4,8 +4,8 @@ import { notFound } from 'next/navigation'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 import { getStep, getSteps } from '@/lib/steps'
-import { ReadmeRenderer } from '@//components/readme-renderer'
-import { StepDiffSelector } from '@//components/step-diff-selector'
+import { ReadmeRenderer } from '@/components/readme-renderer'
+import { StepDiffSelector } from '@/components/step-diff-selector'
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -13,8 +13,8 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '@//components/ui/breadcrumb'
-import { H1 } from '@//components/ui/typography'
+} from '@/components/ui/breadcrumb'
+import { H1 } from '@/components/ui/typography'
 
 // Button-like link styles for Server Components (matches buttonVariants outline)
 const buttonOutlineStyles =

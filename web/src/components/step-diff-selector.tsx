@@ -1,7 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { DiffSelector } from '@//components/diff-selector'
+import { DiffSelector } from '@/components/diff-selector'
 import type { Step } from '@/lib/steps'
 
 interface StepDiffSelectorProps {

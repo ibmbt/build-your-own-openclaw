@@ -2,12 +2,12 @@
 
 import * as React from 'react'
 import { codeToHtml } from 'shiki'
-import { ScrollArea } from '@//components/ui/scroll-area'
+import { ScrollArea } from '@/components/ui/scroll-area'
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from '@//components/ui/collapsible'
+} from '@/components/ui/collapsible'
 import { cn } from '@/lib/utils'
 import { computeDiff, type DiffLine } from '@/lib/diff'
 import { useIsMobile } from '@/lib/hooks'

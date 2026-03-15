@@ -2,9 +2,9 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getStep, getSteps } from '@/lib/steps'
 import { getChangedFiles, getUnchangedFiles } from '@/lib/files'
-import { DiffViewer } from '@//components/diff-viewer'
-import { FileNavDropdown } from '@//components/file-nav-dropdown'
-import { DiffPageSelector } from '@//components/diff-page-selector'
+import { DiffViewer } from '@/components/diff-viewer'
+import { FileNavDropdown } from '@/components/file-nav-dropdown'
+import { DiffPageSelector } from '@/components/diff-page-selector'
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -12,7 +12,7 @@ import {
   BreadcrumbLink,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '@//components/ui/breadcrumb'
+} from '@/components/ui/breadcrumb'
 
 interface DiffPageProps {
   params: Promise<{

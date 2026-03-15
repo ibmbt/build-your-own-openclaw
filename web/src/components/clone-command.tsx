@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Card } from '@//components/ui/card'
+import { Card } from '@/components/ui/card'
 import { CheckIcon, CopyIcon } from 'lucide-react'
 
 const CLONE_COMMAND = 'git clone https://github.com/czl9707/build-your-own-openclaw.git'

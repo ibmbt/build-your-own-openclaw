@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import { Card, CardContent, CardHeader, CardTitle } from '@//components/ui/card'
-import { Badge } from '@//components/ui/badge'
-import { Muted } from '@//components/ui/typography'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+import { Muted } from '@/components/ui/typography'
 import type { Step } from '@/lib/steps'
 
 interface StepCardProps {

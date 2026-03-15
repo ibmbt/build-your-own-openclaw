@@ -1,4 +1,4 @@
-import { H1, P } from '@//components/ui/typography'
+import { H1, P } from '@/components/ui/typography'
 import Link from 'next/link'
 
 export default function NotFound() {
