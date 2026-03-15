@@ -17,7 +17,7 @@ export default function Home() {
       <section className="flex flex-col items-center text-center my-32">
         <H1 className="mb-4">Build Your Own OpenClaw</H1>
         <Lead className="max-w-2xl mb-8">
-          Learn to build a production-ready AI agent through 18 progressive steps.
+          Learn to build you own OpenClaw through 18 progressive steps.
           From a simple chat loop to a fully autonomous multi-agent system.
         </Lead>
         <div className="flex flex-wrap items-center justify-center gap-3">
