@@ -76,3 +76,16 @@ class SkillsCommand(Command):
             f"\n---\n\n**SKILL.md:**\n```\n{skill.content}\n```",
         ]
         return "\n".join(lines)
+
+
+class EchoCommand(Command):
+    """Echo back the text provided by the user."""
+
+    name = "echo"
+    aliases = ["e", "repeat"]
+    description = "Repeats exactly what you type after the command"
+
+    async def execute(self, args: str, session: "AgentSession") -> str:
+        if not args.strip():
+            return "You didn't give me anything to echo!"
+        return args

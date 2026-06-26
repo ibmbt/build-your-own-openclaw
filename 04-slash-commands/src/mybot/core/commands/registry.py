@@ -63,10 +63,12 @@ class CommandRegistry:
             HelpCommand,
             SkillsCommand,
             SessionCommand,
+            EchoCommand,
         )
 
         registry = cls()
         registry.register(HelpCommand())
         registry.register(SkillsCommand())
         registry.register(SessionCommand())
+        registry.register(EchoCommand())
         return registry
